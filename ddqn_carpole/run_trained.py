@@ -1,16 +1,11 @@
-import random
 import gym
 import numpy as np
 from tensorflow.keras.models import load_model
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import Adam
-from collections import deque
 
 
 # Constants
 c_env_name = "CartPole-v1"
-c_max_nb_of_steps = 2000
+c_max_nb_of_steps = 2000000
 
 c_trained_model_file_path = './trained_models/trained_v0.h5'
 
